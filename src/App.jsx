@@ -46,7 +46,9 @@ const App = () => {
       className="text-8xl mb-8"
       />
         <About />
+        <div className="h-[400px]">
         <LetterGlitch/>
+        </div>
         <Projects />
         <Experience />
         <Skills />

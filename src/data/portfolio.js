@@ -2,9 +2,9 @@ const about = {
   title: "- Developer",
   description:
     "Hi, I'm a passionate full-stack web developer with expertise in both frontend and backend technologies. I'm skilled in React, Node.js, Express, MongoDB, and more. My projects focus on creating intuitive, user-friendly applications that solve real-world problems. I'm dedicated to continuous learning and enhancing my skills in web development and computer science.",
-  github: "https://github.com/shehabshalan",
-  linkedin: "https://www.linkedin.com/in/shehabshalan/",
-  cv: "#",
+  github: "https://github.com/GaganNk127",
+  linkedin: "https://www.linkedin.com/in/gagan-naik-883942281/",
+  cv: "https://drive.google.com/file/d/1vU2tna2ywlW9Nev21Gyan-swYbmWqwTk/view?usp=sharing",
 };
 
 const projects = {

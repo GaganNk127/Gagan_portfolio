@@ -203,7 +203,7 @@ const LetterGlitch = ({
   const containerStyle = {
     position: 'relative',
     width: '100%',
-    height: '100%',
+    height: '200px',
     backgroundColor: '#000000',
     overflow: 'hidden',
   };
@@ -211,7 +211,7 @@ const LetterGlitch = ({
   const canvasStyle = {
     display: 'block',
     width: '100%',
-    height: '100%',
+    height: '50%',
   };
 
   const outerVignetteStyle = {
