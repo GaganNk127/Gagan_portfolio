@@ -35,7 +35,7 @@ const projects = {
       short:
        "A mern Web Application that can Scan the BarCode of the Product and predict The Sustainability",
       description:
-        "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
+        "A mern Application Built for Scanning the Product and promote the use of Sustainable products.",
       technologies: [
         "#React.js",
         "#MUI",
@@ -73,7 +73,7 @@ const experience = {
       duration: "Nov 2024 - Present",
       CGPA : "CGPA : 9.00",
       description:
-       "I am currently pursuing a Masters in Computer Application in PES Univesrsity in Bengaluru, Karnataka .",
+       "I am currently pursuing a Masters of Computer Application in PES Univesrsity in Bengaluru, Karnataka .",
     },
     {
       title: "Bachelor of Computer Application",
