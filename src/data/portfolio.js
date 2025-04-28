@@ -1,7 +1,7 @@
 const about = {
-  title: "Hi 👋 , I am Shehab Shalan",
+  title: "- Developer",
   description:
-    "I am a full stack developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
+    "Hi, I'm a passionate full-stack web developer with expertise in both frontend and backend technologies. I'm skilled in React, Node.js, Express, MongoDB, and more. My projects focus on creating intuitive, user-friendly applications that solve real-world problems. I'm dedicated to continuous learning and enhancing my skills in web development and computer science.",
   github: "https://github.com/shehabshalan",
   linkedin: "https://www.linkedin.com/in/shehabshalan/",
   cv: "#",
@@ -11,29 +11,29 @@ const projects = {
   title: "Projects",
   personalProjects: [
     {
-      title: "Youtube Clone",
+      title: "Uber Clone",
       short:
-        "Features Firebase authentication, video upload, and video streaming.",
+        "Features authentication,  Realtime Map integration, and Real Time Booking.",
       description:
-        "it is a video-sharing app built using Firebase for authentication, and data persistence. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
-      technologies: ["#React.js", "#MUI", "#Firebase"],
-      github: "#",
-      demo: "#",
+        "It is a Clone of cab Booking Application Uber with All the fatures in including realtime cab and motocycle booking",
+      technologies: ["React.js","NodeJS","ExpressJS","MongoDB","Socke.io"],
+      github: "https://github.com/GaganNk127/uberGagan",
+      demo: "https://github.com/GaganNk127/uberGagan",
     },
     {
-      title: "Next.js Blog",
+      title: "Mega Blog",
       short:
         "Features JWT authentication, headless CMS, and full CRUD operations.",
       description:
-        "it is a Next.js blog site built using Strapi (a headless CMS). Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! and also lorem",
-      technologies: ["#Next.js", "#MUI", "#Strapi", "#JWT"],
-      github: "#",
-      demo: "#",
+        "It is A blog site Built Using MERN Stack For Uploading , Sharing and Viewing the Blogs",
+      technologies: ["#React.js","#Node.js","#MongoDB","#Express.js" ,"#JWT"],
+      github: "https://github.com/GaganNk127/backend",
+      demo: "https://github.com/GaganNk127/backend",
     },
     {
-      title: "File Sharing App",
+      title: "Sustainable Scanner",
       short:
-        "Features multi-file upload, sharing links with expiration and document preview.",
+       "A mern Web Application that can Scan the BarCode of the Product and predict The Sustainability",
       description:
         "it is a file sharing app built using the MERN stack. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste!",
       technologies: [
@@ -43,22 +43,46 @@ const projects = {
         "#Node.js",
         "#MongoDB",
       ],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/GaganNk127/Sustainableproductscanner",
+      demo: "https://github.com/GaganNk127/Sustainableproductscanner",
+    },
+    {
+      title: "Mental MileStone",
+      short:
+       "A mern Web Application Based on Tracking The Mental Health of People",
+      description:
+        "A Web Application Built using MERN with feaatures of eeping Track on the MEntal Health , Analyzing , Sending Emails and Hosting Events",
+      technologies: [
+        "#React.js",
+        "#Express.js",
+        "#Node.js",
+        "#MongoDB",
+      ],
+      github: "https://github.com/GaganNk127/milestones",
+      demo: "https://github.com/GaganNk127/milestones",
     },
   ],
 };
 
 const experience = {
-  title: "Experience",
+  title: "Education",
   experiences: [
     {
-      title: "Frontend Developer",
-      company: "XYZ Company",
-      duration: "Mar 2021 - Present",
+      title: "Master of Computer Application",
+      company: "PES University",
+      duration: "Nov 2024 - Present",
+      CGPA : "CGPA : 9.00",
       description:
-        "I am currently working as a frontend developer at XYZ Company. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi incidunt, repellendus doloribus voluptates debitis porro ut illo eaque repudiandae corporis tenetur unde quae consectetur obcaecati iusto nostrum expedita iste! ",
+       "I am currently pursuing a Masters in Computer Application in PES Univesrsity in Bengaluru, Karnataka .",
     },
+    {
+      title: "Bachelor of Computer Application",
+      company: "Gogte College Of Commerce",
+      duration: "Oct 2021 - Aug 2024",
+      CGPA : "CGPA : 8.98",
+      description:
+       "I have Complete my Bachelors in Computer Application from Gogte College of Commerce in Belgaum.",
+    }
   ],
 };
 
@@ -73,19 +97,18 @@ const skills = {
         "#JavaScript",
         "#TypeScript",
         "#React.js",
-        "#Next.js",
-        "#MUI",
         "#Node.js",
         "#Express.js",
+        "#Flask",
+        "#Pandas",
+        "#JavaProgramming",
+        "Python Programming"
+
       ],
     },
     {
       title: "Databases",
-      skills: ["#MongoDB", "#PostgreSQL", "#Firebase"],
-    },
-    {
-      title: "Others",
-      skills: ["#Git", "#Jest", "#CI/CD", "#AdobeXD"],
+      skills: ["#MongoDB", "#PostgreSQL", "#MySql"],
     },
   ],
 };

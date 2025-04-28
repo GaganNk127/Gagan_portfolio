@@ -15,7 +15,9 @@ const Experience = () => {
                 {experience.title} - <span>{experience.company}</span>
               </h2>
               <p className="duration">{experience.duration}</p>
+              <p className="duration">{experience.CGPA}</p>
             </div>
+            
             <ReactMarkdown className="experience-description">
               {experience.description}
             </ReactMarkdown>

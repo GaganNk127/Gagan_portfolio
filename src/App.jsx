@@ -7,6 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import "./App.css";
 import Contact from "./components/Contact/Contact";
+import LetterGlitch from "./components/LetterGlitch/LetterGlitch";
+import BlurText from "./components/BlurText/BlurText";
 const App = () => {
   const [theme, setTheme] = useState("light");
 
@@ -26,12 +28,25 @@ const App = () => {
       setTheme(currentTheme);
     }
   }, []);
+  const handleAnimationComplete = () => {
+    console.log('Animation completed!');
+  };
 
   return (
     <div className="app" id={`${theme}`}>
       <main>
         <Navbar toggleTheme={toggleTheme} theme={theme} />
+        
+        <BlurText
+        text="Hey, I am Gagan Naik"
+      delay={200}
+      animateBy="words"
+      direction="top"
+      onAnimationComplete={handleAnimationComplete}
+      className="text-8xl mb-8"
+      />
         <About />
+        <LetterGlitch/>
         <Projects />
         <Experience />
         <Skills />

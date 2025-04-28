@@ -30,6 +30,10 @@ const Projects = () => {
             </div>
           </article>
         ))}
+        <h1> Find More Projects ON  GitHub <span> <a href="https://github.com/GaganNk127" target="_blank">
+                <FaExternalLinkAlt className="icon" size={30} />
+              </a></span></h1>
+        
       </div>
     </section>
   );
