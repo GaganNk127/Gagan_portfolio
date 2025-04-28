@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import LetterGlitch from "./components/LetterGlitch/LetterGlitch";
 import BlurText from "./components/BlurText/BlurText";
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const toggleTheme = () => {
     if (theme === "light") {
